@@ -1,0 +1,46 @@
+label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 7px;
+    height: 30px;
+    background-color: #dbdbdb;
+    color: black;
+}
+
+.addButton {
+width: 110px;
+  background-color: #1a1a1a;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+button:disabled:hover {
+    border-color: aquamarine;
+}
+
+.done {
+    font-weight: 600;
+}
+
+.deleteAllBtn {
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+  margin: 0 auto;
+    background-color: #1a1a1a;
+}
+
+button:hover {
+  cursor: pointer;
+  border-color: rgb(17, 126, 126);
+}
+
+.hr {
+      width: 400px;
+}

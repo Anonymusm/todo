@@ -1,0 +1,61 @@
+.item {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.link:hover,
+.link:focus {
+  color: #444; 
+  text-decoration: underline;
+  outline: 2px solid transparent; 
+  outline-offset: 4px;
+}
+
+.link:active {
+  color: #666;
+}
+
+.deleteBtn {
+   background-color: transparent;
+   color: #000;
+   border: none;
+   max-width: 10px;
+}
+
+.deleteBtn:hover,
+.deleteBtn:focus {
+    border: none;
+}
+
+@keyframes add {
+  from {
+    opacity: 0;
+    transform: translateY(-75%);
+  }
+}
+
+.app {
+  animation: add 400ms ease-out;
+}
+
+.dis {
+  opacity: 0;
+  transform: translateY(-75%);
+  transition: opacity 400ms, transform 400ms;
+}
+
